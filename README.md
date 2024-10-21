@@ -1,16 +1,11 @@
-# assignment
+# Orbit Assignment
 
-Orbit Assignment
+## Cart Page
 
-## Getting Started
+- UI as per the [screenshot](./assets/WhatsApp%20Image%202024-10-16%20at%2015.13.48.jpeg)
+- Dynamically calculating bill as per items being added or removed
+- Selected product quantities being persisted into SharedPreferences across app shutdowns
 
-This project is a starting point for a Flutter application.
+## Demo
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Refer the [screen recording](./assets/screen-20241021-165407.mp4) in `assets/` folder

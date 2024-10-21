@@ -39,7 +39,7 @@ class ProductData {
   final int productId;
   final String productName;
   final int price;
-  final int qty;
+  final int defaultQty;
   final int maxQty;
   final int segmentPrice;
   final String image;
@@ -49,7 +49,7 @@ class ProductData {
     required this.productId,
     required this.productName,
     required this.price,
-    required this.qty,
+    required this.defaultQty,
     required this.maxQty,
     required this.segmentPrice,
     required this.image,
@@ -65,7 +65,7 @@ class ProductData {
         productId: json["productID"],
         productName: json["productName"],
         price: json["price"],
-        qty: json["qty"],
+        defaultQty: json["qty"],
         maxQty: json["maxQty"],
         segmentPrice: json["segmentPrice"],
         image: json["image"],
@@ -76,7 +76,7 @@ class ProductData {
         "productID": productId,
         "productName": productName,
         "price": price,
-        "qty": qty,
+        "qty": defaultQty,
         "maxQty": maxQty,
         "segmentPrice": segmentPrice,
         "image": image,
